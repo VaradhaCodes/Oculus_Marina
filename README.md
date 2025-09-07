@@ -82,29 +82,6 @@ The system is an embedded AI module that plugs into existing microscopes via sta
 ### 3.1 Image Pre-Processing Module
 Handles input images with algorithms for microscope-specific corrections.
 
-**Example Code Snippet (Python)**:
-```python
-class MicroscopeImageProcessor:
-    def __init__(self):
-        self.supported_formats = ['.jpg', '.png', '.tiff', '.bmp']
-        self.target_resolution = (1024, 1024)
-
-    def process_image(self, image_path):
-        # Load microscope image
-        image = cv2.imread(image_path, cv2.IMREAD_UNCHANGED)
-        
-        # Handle different bit depths (8-bit, 16-bit)
-        if image.dtype == np.uint16:
-            image = (image / 256).astype(np.uint8)
-        
-        # Apply preprocessing pipeline
-        image = self.correct_illumination(image)
-        image = self.enhance_contrast(image)
-        image = self.denoise(image)
-        
-        return image
-```
-
 - **Algorithms**:
   - Illumination Correction: DeAbe neural network (1.2M parameters).
   - Contrast Enhancement: CLAHE with adaptive tile sizing.
