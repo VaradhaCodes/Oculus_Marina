@@ -143,7 +143,7 @@ class MicroscopeImageProcessor:
 - **Algorithm**: Enhanced SORT with Kalman Filtering.
 - Supports real-time tracking across frames.
 
-![Real-time AI Detection Pipeline](4.png)
+![Real-time AI Detection Pipeline](real_time_ai_detection_pipeline.png)
 
 ## Performance Metrics
 - Accuracy: 96.36% (classification), 94% mIoU (detection).
