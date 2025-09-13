@@ -41,7 +41,7 @@ The system is an embedded AI module that plugs into existing microscopes via sta
 - **Tracking & Counting**: Enhanced SORT with Kalman filtering.
 - **Output**: Real-time dashboard, CSV/Excel exports, statistical analysis.
 
-![architecture](architecture.png)
+[![architecture](architecture.png)]
 
 ## Hardware Architecture
 
