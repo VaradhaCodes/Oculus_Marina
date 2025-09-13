@@ -41,7 +41,7 @@ The system is an embedded AI module that plugs into existing microscopes via sta
 - **Tracking & Counting**: Enhanced SORT with Kalman filtering.
 - **Output**: Real-time dashboard, CSV/Excel exports, statistical analysis.
 
-![Embedded Intelligent Microscopy System Architecture](microscopy_system_architecture.png)
+![Embedded Intelligent Microscopy System Architecture](architecture.png)
 
 ## Hardware Architecture
 
@@ -120,7 +120,7 @@ Handles input images with algorithms for microscope-specific corrections.
 - **Algorithm**: Enhanced SORT with Kalman Filtering.
 - Supports real-time tracking across frames.
 
-![Real-time AI Detection Pipeline](real_time_ai_detection_pipeline.png)
+![Real-time AI Detection Pipeline](Aidedection.png)
 
 ## Performance Metrics
 - Accuracy: 96.36% (classification), 94% mIoU (detection).
