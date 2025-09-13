@@ -120,7 +120,7 @@ Handles input images with algorithms for microscope-specific corrections.
 - **Algorithm**: Enhanced SORT with Kalman Filtering.
 - Supports real-time tracking across frames.
 
-![Aidedection](Aidedection.png)
+![Ai dedection](Aidedection.png)
 
 ## Performance Metrics
 - Accuracy: 96.36% (classification), 94% mIoU (detection).
