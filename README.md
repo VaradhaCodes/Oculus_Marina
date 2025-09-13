@@ -164,5 +164,3 @@ Handles input images with algorithms for microscope-specific corrections.
 - **Implementation Resources**: Field Validation (89.7% acc), Training (500K images).
 - **Key Optimizations**: INT8 quantization, pruning, distillation, layer fusion.
 
-## Contributing
-Contributions welcome! Fork the repo and submit PRs. Focus on model improvements or new dataset integrations.
